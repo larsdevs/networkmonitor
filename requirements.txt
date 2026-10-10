@@ -1,0 +1,9 @@
+
+## Requirements
+
+- Windows 10/11 (signature check is Windows-only; the rest also works on Linux/macOS)
+- Python 3.8+
+- `pip install psutil scapy`
+- [Npcap](https://npcap.com) (only needed for DNS, SNI and data volume)
+
+Without scapy/Npcap the tool still works, but those columns stay empty.
